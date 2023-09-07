@@ -1,0 +1,43 @@
+.note {
+  border: 1px solid ffecd5;
+  padding: 1.5rem;
+  font-size: 1.2rem;
+  margin: 1rem;
+  color: #333;
+  border-radius: 0.5rem;
+  background-color: #ffecd5;
+  backdrop-filter: blur(16px) saturate(170%);
+  -webkit-backdrop-filter: blur(16px) saturate(170%);
+  background-color: rgba(255, 236, 213, 0.6);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  /* text-shadow: -1px 1px 0 #2b2929, 1px 1px 0 #2b2929, 1px -1px 0 #2b2929,
+    -1px -1px 0 #2b2929; */
+}
+
+.high {
+  color: rgb(239, 100, 100);
+}
+.medium {
+  color: rgb(255, 255, 124);
+}
+.low {
+  color: rgb(82, 230, 163);
+}
+
+.action-icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 0.5rem;
+  color: #4d4d4d;
+}
+.date {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0.5rem;
+  color: #000;
+  font-size: 0.7rem;
+  text-shadow: none;
+}

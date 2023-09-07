@@ -1,0 +1,28 @@
+.add-note-fields {
+  border: 0.7px solid rgb(189, 189, 255);
+  border-radius: 4px;
+  outline: none;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  color: coral;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+  line-height: 22px;
+  cursor: pointer;
+}
+.add-note input {
+  width: 65%;
+}
+.add-note button,
+select {
+  margin-left: 10px;
+}
+
+.add-note {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  justify-content: center;
+}
